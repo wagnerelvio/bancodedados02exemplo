@@ -1,0 +1,8 @@
+CREATE TABLE Pessoa (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    PrimeiroNome VARCHAR(40),
+    SobreNome VARCHAR(40),
+    DataNascimento DATE,
+    Cidade VARCHAR(40),
+    Pais VARCHAR(40)
+);
